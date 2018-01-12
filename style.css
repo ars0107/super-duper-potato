@@ -15,7 +15,7 @@ li {
 
 a {
     text-decoration: none;
-    transition: all 500ms eas-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 a:hover,
@@ -43,7 +43,7 @@ p {
 }
 
 .btn:hover {
-    background-color: rgb(192, 91, 18) !important;
+    background-color: rgb(48, 73, 184) !important;
     color: #3cc3c3c !important;
     border: 1px solid #fff !important;
 }
@@ -214,4 +214,45 @@ p {
         width: 80%;
         margin-left: 25px;
     }
+}
+
+/* Contact */
+.contact {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    padding-bottom: 80px;
+    color: hotpink;
+}
+
+.contact h2 {
+    color: #4c4c4c;
+    margin: 20px, 0 20px;
+}
+
+.contact .input-group {
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    border-radius: 0 !important;
+}
+
+.contact span {
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: bisque;
+    color: navy;
+}
+
+.contact .btn:hover {
+    background-color: pink !important;
+    color: white !important;
 }
