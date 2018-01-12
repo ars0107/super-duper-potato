@@ -256,3 +256,37 @@ p {
     background-color: pink !important;
     color: white !important;
 }
+
+/* Footer */
+
+.footer {
+    padding: 30px;
+    color: white;
+    background-color: rgb(48, 73, 184) !important;
+}
+
+/*
+.footer .social {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+*/
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    color: #000 !important;
+}
+
+.footer .btn {
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
