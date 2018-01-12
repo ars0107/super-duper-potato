@@ -83,8 +83,7 @@ p {
 
 .header img{
     height: 600px;  
-    position: absolute;
-    top: 60px;
+    padding-right: 300px;
 
 }
 
@@ -115,6 +114,33 @@ p {
         width: auto;
         height: 300px;
         margin: 20px 0 0 20px;
+    }
+
+    .header .btn {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 320px) {
+    .header {
+        padding: 30px;
+        height: 800px;
+    }
+
+    .header img {
+        position: fixed;
+        width: auto;
+        height: 200px;
+        left: 0;
     }
 
     .header .btn {
