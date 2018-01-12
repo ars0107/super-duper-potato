@@ -195,7 +195,7 @@ p {
 }
 
 .portfolio p {
-    padding-bottom: 40px;
+    padding-bottom: 3px;
 }
 
 .portfolio .summary {
@@ -213,6 +213,7 @@ p {
 }
 
 .summary p {
+    padding-top: 20px;
     color: #737373;
 }
 
