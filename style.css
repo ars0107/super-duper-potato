@@ -79,7 +79,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    background-color: navy;
     text-align: center;
 }
 
@@ -131,6 +130,7 @@ p {
 }
 
 /*ABOUT-ME*/
+
 .about-me {
     padding: 200px 0 200px;
     text-align: center;
@@ -175,15 +175,15 @@ p {
 .portfolio {
     padding: 100px 0 200px;
     text-align: center;
-    background-color: navy;
 }
 
-.portfolio h2,
-.portfolio p {
-    color: gray;
+.portfolio h2, .portfolio p {
+    color: #4c4c4c;
+    text-align: center;    
 }
 
 .portfolio img {
+    opacity: .7;
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 2px; /* Some padding */
@@ -192,6 +192,7 @@ p {
 
 .portfolio img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); /* adds blue shadow hover effect */
+    opacity: 1;
 }
 
 .portfolio p {
@@ -201,7 +202,6 @@ p {
 .portfolio .summary {
     padding: 30px;
     border: 1px solid gray;
-    background-color: white;
     border-radius: 5px;
     margin-top: 30px;
 }
@@ -215,6 +215,7 @@ p {
 .summary p {
     padding-top: 20px;
     color: #737373;
+    text-align: left;
 }
 
 @media(max-width: 768px) {
