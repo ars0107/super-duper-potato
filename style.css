@@ -326,6 +326,13 @@ p {
     color: hotpink;
 }
 
+.footer .email-me {
+    color: rgb(209, 197, 197);
+}
+.footer .email-me:hover {
+    color: hotpink;
+}
+
 .footer input {
     height: 40px;
     width: 160px;
