@@ -78,12 +78,14 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
     text-align: center;
 }
 
 .header img{
-    margin: 200px auto;
+    height: 600px;  
+    position: absolute;
+    top: 60px;
+
 }
 
 .header h1 {
