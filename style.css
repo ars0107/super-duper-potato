@@ -172,7 +172,7 @@ p {
 
 /* Portfolio */
 .portfolio {
-    padding: 200px 0 200px;
+    padding: 100px 0 200px;
     text-align: center;
     background-color: navy;
 
@@ -198,11 +198,11 @@ p {
 .summary h4,
 .summary h1,
 .summary b {
-    color: yellow;
+    color: #4c4c4c;;
 }
 
 .summary p {
-    color: red;
+    color: #737373;
 }
 
 @media(max-width: 768px) {
