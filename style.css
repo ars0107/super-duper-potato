@@ -69,7 +69,7 @@ p {
 
 /* HEADER */
 .header {
-    height: 600px;
+    height: 750px;
     width: 100%;
     padding: 30px 0 30px;
     margin-top: 50px;
@@ -79,12 +79,11 @@ p {
     background-size: cover;
     color: #fff;
     background-color: navy;
+    text-align: center;
 }
 
 .header img{
-    margin: 70px 0 0 40px;
-    align-content: center;
-    
+    margin: 150px auto;
 }
 
 .header h1 {
@@ -284,9 +283,4 @@ p {
     border: none;
     background-color: white;
     color: #000 !important;
-}
-
-.footer .btn {
-    padding: 10px 5px 10px;
-    margin: -3px 0 0 5px;
 }
