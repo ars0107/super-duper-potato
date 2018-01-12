@@ -187,7 +187,7 @@ p {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 2px; /* Some padding */
-    width: 300px; /* Set a small width */
+    width: 200px; /* Set a small width */
 }
 
 .portfolio img:hover {
@@ -224,7 +224,43 @@ p {
         width: 80%;
         margin-left: 25px;
     }
+    .portfolio img {
+        width: 300px; /* Set a small width */
+    }
 }
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .portfolio img {
+        width: 150px;
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .portfolio img {
+        width: 150px;
+    }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .portfolio img {
+        width: 300px;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .portfolio img {
+        width: 300px;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .portfolio img {
+        width: 200px;
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .portfolio img {
+        width: 200px;
+    }
+}
+
+
 
 /* Contact */
 .contact {
@@ -287,7 +323,7 @@ p {
 }
 
 .footer .social:hover {
-    color: aquamarine;
+    color: hotpink;
 }
 
 .footer input {
