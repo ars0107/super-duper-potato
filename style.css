@@ -25,6 +25,7 @@ a:active {
 
 h1,
 h2,
+h3,
 h4 {
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: uppercase;
@@ -213,12 +214,12 @@ p {
 }
 
 .portfolio h2, .portfolio p {
-    color: #4c4c4c;
+    color: rgb(209, 197, 197);
     text-align: center;    
 }
 
 .portfolio img {
-    opacity: .7;
+    opacity: .8;
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 2px; /* Some padding */
@@ -240,15 +241,22 @@ p {
     margin-top: 30px;
 }
 
+.portfolio .title {
+    text-align: left;
+    color:rgb(209, 197, 197);
+
+}
+
 .summary h4,
+.summary h3,
 .summary h1,
 .summary b {
-    color: #4c4c4c;;
+    color: rgb(209, 197, 197);
 }
 
 .summary p {
     padding-top: 20px;
-    color: #737373;
+    color:rgb(209, 197, 197);
     text-align: left;
 }
 
