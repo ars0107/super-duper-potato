@@ -140,7 +140,7 @@ p {
     }
 
     .header img {
-        position: fixed;
+        position: static;
         width: auto;
         height: 200px;
         left: 0;
