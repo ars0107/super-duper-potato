@@ -205,6 +205,11 @@ p {
 .portfolio {
     padding: 100px 0 200px;
     text-align: center;
+    background-image: url(images/concrete-texture.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .portfolio h2, .portfolio p {
