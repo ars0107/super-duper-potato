@@ -50,7 +50,7 @@ p {
 
 /* NAVIGATION */
 .navbar {
-    background-color: rgb(48, 73, 184) !important;
+    background-color: rgb(8, 104, 104) !important;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: 300;
@@ -320,6 +320,10 @@ p {
 
 .contact .form-control {
     border-radius: 0 !important;
+    background-image: url("images/concrete-texture.jpg");
+    background-position: center-center;
+    background-attachment: fixed;
+    opacity: .5;
 }
 
 .contact span {
@@ -330,13 +334,15 @@ p {
     border-radius: 0;
     width: 100%;
     font-size: 15px;
-    background-color: bisque;
-    color: navy;
+    background-image: url("images/concrete-texture.jpg");
+    background-position: center-center;
+    background-attachment: fixed;
+    opacity: .5;
+    color: lightgoldenrodyellow;
 }
 
 .contact .btn:hover {
-    background-color: pink !important;
-    color: white !important;
+    color: #fff !important;
 }
 
 /* Footer */
