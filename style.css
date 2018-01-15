@@ -56,17 +56,17 @@ p {
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
-    color: rgb(168, 164, 164) !important;
+    color: rgb(209, 197, 197) !important;
 }
 
 .navbar a {
-    color: #fff !important;
+    color: rgb(218, 206, 206) !important;
     opacity: 0.7;
 }
 
 .navbar a:hover {
     opacity: 1;
-    background-color: rgb(46, 38, 156) !important;
+    background-color: rgb(7, 80, 80) !important;
 }
 
 /* HEADER */
@@ -182,6 +182,11 @@ p {
 .about-me img {
     height: 200px;
     width: auto;
+    border-radius: 50%;
+}
+
+.about-me img:hover {
+    filter: hue-rotate(90deg);
 }
 
 /* to add icons and adjust them
