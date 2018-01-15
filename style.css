@@ -206,7 +206,7 @@ p {
 .portfolio {
     padding: 100px 0 200px;
     text-align: center;
-    background-image: url(images/concrete-texture.jpg) !important;
+    background-color: rgba(17, 92, 117, 0.274)!important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,8 +214,12 @@ p {
 }
 
 .portfolio h2, .portfolio p {
-    color: rgb(209, 197, 197);
+    color: #4c4c4c;;
     text-align: center;    
+}
+
+.portfolio .title {
+    margin-left: 40px !important;
 }
 
 .portfolio img {
@@ -243,7 +247,7 @@ p {
 
 .portfolio .title {
     text-align: left;
-    color:rgb(209, 197, 197);
+    color:#4c4c4c;
 
 }
 
@@ -251,12 +255,12 @@ p {
 .summary h3,
 .summary h1,
 .summary b {
-    color: rgb(209, 197, 197);
+    color: #4c4c4c;
 }
 
 .summary p {
     padding-top: 20px;
-    color:rgb(209, 197, 197);
+    color:#4c4c4c;
     text-align: left;
 }
 
