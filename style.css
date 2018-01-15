@@ -206,11 +206,7 @@ p {
 .portfolio {
     padding: 100px 0 200px;
     text-align: center;
-    background-color: rgba(17, 92, 117, 0.274)!important;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #fff !important;
 }
 
 .portfolio h2, .portfolio p {
