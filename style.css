@@ -395,3 +395,10 @@ p {
     background-color: white;
     color: #000 !important;
 }
+
+.footer .copyright {
+    text-align: center !important;
+    font-weight: 300 !important;
+    text-transform: lowercase !important;
+    font-size: 10px !important; 
+}
