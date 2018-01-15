@@ -332,10 +332,7 @@ p {
 
 .contact .form-control {
     border-radius: 0 !important;
-    background-image: url("images/concrete-texture.jpg");
-    background-position: center-center;
-    background-attachment: fixed;
-    opacity: .5;
+    background-color: rgb(240, 239, 239) !important;
 }
 
 .contact span {
@@ -346,15 +343,13 @@ p {
     border-radius: 0;
     width: 100%;
     font-size: 15px;
-    background-image: url("images/concrete-texture.jpg");
-    background-position: center-center;
-    background-attachment: fixed;
-    opacity: .5;
+    background-color: #4c4c4c;
     color: lightgoldenrodyellow;
 }
 
 .contact .btn:hover {
-    color: #fff !important;
+    color: rgb(255, 174, 214) !important;
+    background-color: rgb(8, 104, 104) !important;  
 }
 
 /* Footer */
